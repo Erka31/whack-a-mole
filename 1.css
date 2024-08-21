@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.img {
+  background-image: url("mario-bg.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vw;
+  z-index: -2;
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.score {
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+
+.soil {
+  background-image: url("/soil.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40vw;
+  height: 40vw;
+  border: solid 2px white;
+  border-radius: 20px;
+  margin: 5px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
